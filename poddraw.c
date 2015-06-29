@@ -105,7 +105,7 @@ static void poddraw_save( void )
 
 	t = time( NULL );
 	current_time = localtime( &t );
-	strftime( buf, 64, "%Y-%m-%d_%H%M.ppm", current_time );
+	strftime( buf, 64, "/opt/Zillae/Podzilla0-Lite/Data/%Y-%m-%d_%H%M.ppm", current_time );
 
 	fp = fopen( buf, "w" );
 	if( !fp ) return;

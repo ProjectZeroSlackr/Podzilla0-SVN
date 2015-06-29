@@ -16,7 +16,7 @@
 #include "../ipod.h"
 #include "../pz.h"
 
-#define LASTGAME ".tuxchess"
+#define LASTGAME "/opt/Zillae/Podzilla0-SVN/Data/tuxchess.save"
 
 #define MWINCLUDECOLORS
 #include "nano-X.h"

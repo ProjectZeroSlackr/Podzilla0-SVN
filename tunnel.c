@@ -35,7 +35,7 @@ static GR_WINDOW_INFO wi;
 static GR_WINDOW_ID temp_pixmap;
 
 #ifdef IPOD
-#define SAVEFILE "/home/.tunnel"
+#define SAVEFILE "/opt/Zillae/Podzilla0-Lite/Data/tunnel.txt"
 #else
 #define SAVEFILE ".tunnel"
 #endif

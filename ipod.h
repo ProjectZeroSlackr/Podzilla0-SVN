@@ -22,7 +22,7 @@
 /* Global Settings */
 
 #ifdef IPOD
-#define IPOD_SETTINGS_FILE	"/etc/podzilla.conf"
+#define IPOD_SETTINGS_FILE	"/opt/Zillae/Podzilla0-SVN/Conf/podzilla0-svn.conf"
 #else
 #define IPOD_SETTINGS_FILE	"podzilla.conf"
 #endif
