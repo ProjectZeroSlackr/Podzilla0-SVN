@@ -1,13 +1,56 @@
-Legacy user interface for iPodLinux.  
+Last updated: Apr 23, 2008
+~Keripo
 
----
+All code/scripts written by Keripo are licensed under
+GNU GPL - see License.txt. For the licensing of the
+software/application, refer to the documents found in
+Misc/Docs.tar.gz or the license that comes with the
+original/ported software.
 
-This is a component of iPodLinux that has been split off into it's own separate project.  
-This project is no longer actively maintained and has been mirrored for archival purposes.  
+Overview:
+Podzilla0-SVN
+- Podzilla0-SVN is an SVN build of podzilla0 (also known
+  as podzilla legacy or PZ0).
+- Podzilla0 was the old GUI of iPodLinux before it was
+  abandoned in favour of podzilla2 (for its modularity).
+- Podzilla0 also has a built-in video player that can play
+  uncompressed .avi files preconverted by applications
+  such as MoPiD (http://ipodlinux.org/wiki/MoPiD)
+- Since the iPod video (5G/5.5G) was released after the
+  switch to PZ2, the PZ0 LCD driver is extremely slow with
+  iPod videos to the point that PZ0 and all PZ0-based zillae
+  will not "work" on iPod videos.
+- The ZeroSlackr version just has a few string changes for
+  ZeroSlackr Framework compatibility.
+For more information, see:
+- http://ipodlinux.org/wiki/Podzilla_(legacy)
 
-The iPodLinux project's full source code tree: https://github.com/iPodLinux/iPodLinux-SVN  
-The original SourceForge project: http://sourceforge.net/projects/ipodlinux/  
-The (now dead) website: http://ipodlinux.org/  
+Usage:
+- FastLaunch through "Zillae > Podzilla0-SVN".
 
-All files are licensed under GNU General Public License v2.0 unless otherwise specified.  
-http://www.gnu.org/licenses/gpl-2.0.html 
+
+Original:
+- Authors: iPL Core Devs
+- Source: SVN
+- Link:
+  https://ipodlinux.svn.sourceforge.net/svnroot/ipodlinux/legacy/podzilla
+- Date: Sept 28, 2005
+- Version: Revision 1.95 (pre-"Great Befuddlement")
+
+ZS Version:
+- Modder: Keripo
+- Type: ZS Recompile
+- Date: Apr 23, 2008
+- Version: B X.X
+
+Modifications:
+- made ZS friendly
+
+Launch Module:
+- FastLaunches Podzilla0-SVN
+
+To do:
+- none; clean build
+
+Changelog:
+[keep untouched till beta release]
